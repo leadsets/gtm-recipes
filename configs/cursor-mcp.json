@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "leadsets": {
+      "url": "https://mcp.leadsets.ai",
+      "headers": {
+        "Authorization": "Bearer ls_live_…"
+      }
+    }
+  }
+}
