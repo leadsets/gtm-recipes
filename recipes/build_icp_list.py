@@ -2,7 +2,7 @@
 
 Run: export LEADSETS_KEY=ls_live_…   then  python recipes/build_icp_list.py
 
-The free plan is 1,000 enrichments plus 100 search records, no card, one time.
+At public launch on 10 December 2026, the free plan will be 1,000 enrichments plus 100 search records, no card, one time. Until then, join the waitlist.
 Records only count when data comes back. Catch-all and unknown are held, not treated as verified.
 """
 
@@ -26,7 +26,7 @@ FILTERS = dict(
 
 def main() -> int:
     if not (os.environ.get("LEADSETS_KEY") or os.environ.get("LEADSETS_API_KEY")):
-        print("Set LEADSETS_KEY first. Get a free API key: https://www.leadsets.ai/signup", file=sys.stderr)
+        print("Set LEADSETS_KEY first. Join the waitlist: https://www.leadsets.ai/signup (public launch 10 December 2026)", file=sys.stderr)
         return 2
 
     ls = Leadsets()

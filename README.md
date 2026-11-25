@@ -4,7 +4,7 @@ Copy-and-run recipes for [Leadsets](https://www.leadsets.ai/): build an ICP list
 
 Leadsets is Unlimited B2B Contact Data for AI Agents, Starting from $29/mo (paid plans; fair-use rate limits apply).
 
-[Get a free API key](https://www.leadsets.ai/signup). Keys start with `ls_live_`. The official SDKs read `LEADSETS_KEY` or `LEADSETS_API_KEY`. Do not commit a real key.
+[Join the waitlist](https://www.leadsets.ai/signup) (public launch 10 December 2026). At launch, the free plan will include 1,000 enrichments plus 100 search records, no card. Keys start with `ls_live_`. The official SDKs read `LEADSETS_KEY` or `LEADSETS_API_KEY`. Do not commit a real key.
 
 ## Contents
 
@@ -31,7 +31,7 @@ export LEADSETS_KEY=ls_live_…
 npx tsx recipes/build_icp_list.ts
 ```
 
-The free plan is 1,000 enrichments plus 100 search records, no card, one time. Paid plans are a flat monthly price with fair-use limits per five hours and per week. Call `ls.usage.get()` (or the `get_usage` MCP tool) before a large run. See [pricing](https://www.leadsets.ai/pricing) and [How Leadsets fair-use limits work](https://telegra.ph/How-Leadsets-fair-use-limits-work-5-hour-and-weekly-windows-11-20).
+At public launch on 10 December 2026, the free plan will be 1,000 enrichments plus 100 search records, no card, one time. Until then, join the waitlist. Paid plans are a flat monthly price with fair-use limits per five hours and per week. Call `ls.usage.get()` (or the `get_usage` MCP tool) before a large run. See [pricing](https://www.leadsets.ai/pricing) and [How Leadsets fair-use limits work](https://telegra.ph/How-Leadsets-fair-use-limits-work-5-hour-and-weekly-windows-11-20).
 
 Email statuses are verified, catch-all, unknown and invalid. Uncertain results are not rounded up. Keep the receipt fields (`match_reasons`, `status`, `checked_at`, `request_id`) in your output.
 
